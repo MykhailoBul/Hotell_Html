@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.7em;
+}
+h1 {
+  padding-bottom: 20px;
+}
+#navbar {
+  background-color: bisque;
+  overflow: auto;
+}
+#navbar a {
+  color: rgb(0, 110, 255);
+}
+a {
+  text-decoration: none;
+}
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover {
+  background-color: rgb(225, 202, 174);
+  color: brown;
+}
+#navbar h1 {
+  padding-top: 20px;
+  float: left;
+}
